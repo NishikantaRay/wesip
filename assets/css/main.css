@@ -686,7 +686,7 @@ button {
 /*Page Header*/
 
 .page-header {
-  background-image: url(../img/header/2.png);
+  background-image: url(../img/header/2.webp);
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
@@ -1500,7 +1500,7 @@ button {
 }
 
 .box-inner-wrap:hover {
-  cursor: url(../img/cross.png), auto;
+  cursor: url(../img/cross.webp), auto;
 }
 
 #popup-search-box.toggled {
@@ -1840,7 +1840,7 @@ button {
     Hero Section
 ====================================================*/
 .hero-section {
-  background-image: url(../img/hero-bg.png);
+  background-image: url(../img/hero-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -1879,7 +1879,7 @@ button {
 
 .hero-btn::before {
   content: "";
-  background-image: url(../img/video-one-shape-1.png);
+  background-image: url(../img/video-one-shape-1.webp);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center right;
@@ -2281,7 +2281,7 @@ button {
 
 .service-btn-2::before {
   content: "";
-  background-image: url(../img/service-arrow.png);
+  background-image: url(../img/service-arrow.webp);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center right;
@@ -2565,7 +2565,7 @@ button {
 }
 
 .about-section-2 .about-bg {
-  background-image: url(../img/about-bg.png);
+  background-image: url(../img/about-bg.webp);
   background-repeat: no-repeat;
   background-position: bottom left;
   background-size: contain;
@@ -3383,7 +3383,7 @@ button {
 }
 
 .project-bg {
-  background-image: url(../img/project-shape.png);
+  background-image: url(../img/project-shape.webp);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: contain;
@@ -3763,7 +3763,7 @@ button {
 }
 
 .content-section .content-shape {
-  background-image: url(../img/content-shape.png);
+  background-image: url(../img/content-shape.webp);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: contain;
@@ -3879,7 +3879,7 @@ button {
 }
 
 .testimonial-section .testi-bg {
-  background-image: url(../img/testi-bg-shape.png);
+  background-image: url(../img/testi-bg-shape.webp);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: contain;
@@ -4062,7 +4062,7 @@ button {
 }
 
 .faq-section .faq-shape {
-  background-image: url(../img/faq-shape.png);
+  background-image: url(../img/faq-shape.webp);
   background-repeat: no-repeat;
   background-position: top left;
   background-size: contain;
@@ -4207,7 +4207,7 @@ button {
 }
 
 .cta-section .cta-shape {
-  background-image: url(../img/arrow.png);
+  background-image: url(../img/arrow.webp);
   background-repeat: no-repeat;
   background-position: bottom left;
   background-size: contain;
@@ -5732,7 +5732,7 @@ blockquote span:before {
 }
 
 .video-wrap-2 {
-  background-image: url(../img/header/content.png);
+  background-image: url(../img/header/content.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
