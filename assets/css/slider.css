@@ -410,11 +410,11 @@
 }
 
 .consultiva-swiper-arrow .swiper-next {
-  margin-right: 70px;
+  margin-right: 80px;
 }
 
 .consultiva-swiper-arrow .swiper-prev {
-  margin-left: 70px;
+  margin-left: 80px;
 }
 
 .consultiva-swiper-arrow i {
@@ -462,7 +462,14 @@
 
 @media (max-width: 992px) {
   .consultiva-swiper-arrow {
-    /* display: none; */
+    display: none;
+    
+  }
+  .consultiva-swiper-arrow .swiper-next {
+    margin-right: 10px;
+  }
+  .consultiva-swiper-arrow .swiper-prev {
+    margin-left: 10px;
   }
 }
 
