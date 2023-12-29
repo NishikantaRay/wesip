@@ -462,7 +462,7 @@
 
 @media (max-width: 992px) {
   .consultiva-swiper-arrow {
-    display: none;
+    /* display: none; */
   }
 }
 
@@ -707,11 +707,11 @@
   text-transform: uppercase;
 }
 
-.slider-2 .slider-box h1 span {
+/* .slider-2 .slider-box h1 span {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
-}
+} */
 
 .slider-2 .slider-box .btn-group {
   margin-top: 40px;
