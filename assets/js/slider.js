@@ -21,7 +21,7 @@
     }
 
     var sliderOptions = {
-      speed: 1500,
+      speed: 2500,
       autoplay: true,
       delay: 2000,
       disableOnInteraction: false,
