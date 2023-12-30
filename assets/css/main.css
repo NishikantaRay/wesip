@@ -2282,7 +2282,7 @@ button {
 
 .service-btn-2::before {
   content: "";
-  background-image: url(../img/service-arrow.webp);
+  background-image: url(../img/service-arrow.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center right;
@@ -3880,7 +3880,7 @@ button {
 }
 
 .testimonial-section .testi-bg {
-  background-image: url(../img/testi-bg-shape.webp);
+  background-image: url(../img/testi-bg-shape.png);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: contain;
