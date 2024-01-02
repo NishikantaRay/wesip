@@ -1100,34 +1100,39 @@
                             <div class="form-heading">
                                 <h2>Request a free quote. Best rate guaranteed!</h2>
                             </div>
-                            <form action="#" method="post" id="ajax_contact" class="form-horizontal">
-                                <div class="form-group colum-row row">
-                                    <div class="col-sm-6">
-                                        <input type="text" id="firstname" name="firstname" class="form-control"
-                                            placeholder="First Name" required="">
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <input type="email" id="email" name="email" class="form-control"
-                                            placeholder="Email" required="">
-                                    </div>
+                            <form action="https://gmail.us17.list-manage.com/subscribe/post?u=d164a665617f5f1ef6e6af860&amp;id=6c7ee0b816&amp;f_id=004a5ae0f0"
+                            method="post" id="ajax_contact" class="form-horizontal">
+                                <div class="col-sm-12">
+                                    <input   type="text" value="" name="FNAME"  id="fullname"  class="form-control"
+                                        placeholder="Please enter your name" required data-error="Please enter your name">
+                                        <div class="help-block with-errors"></div>
                                 </div>
                                 <div class="form-group row">
-                                    <div class="col-sm-6">
-                                        <input type="text" id="phone" name="phone" class="form-control"
-                                            placeholder="Phone Number" required="">
+                                    <div class="col-sm-12">
+                                        <input type="text" name="PHONE" id="phone"  class="form-control"
+                                            placeholder="Please enter your Phone number" required
+                                            data-error="Please enter your number">
+                                            <div class="help-block with-errors"></div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <input type="text" id="subject" name="subject" class="form-control"
-                                            placeholder="Subject" required="">
-                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <input type="email" value="" name="EMAIL" id="email" class="form-control" placeholder="Email"
+                                    required data-error="Please enter your email">
+                                    <div class="help-block with-errors"></div>
                                 </div>
                                 <div class="form-group row">
                                     <div class="col-md-12">
-                                        <textarea id="message" name="message" cols="30" rows="5"
-                                            class="form-control address" placeholder="Message" required=""></textarea>
+                                        <textarea id="message" name="message" type="text" value="" name="MMERGE6" cols="30" rows="5"
+                                            class="form-control address" placeholder="Message"  required data-error="Write your message"></textarea>
+                                            <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
-                                <button id="submit" class="default-btn" type="submit">Send Message<span></span></button>
+                                <input hidden type="text" name="b_d164a665617f5f1ef6e6af860_6c7ee0b816" tabindex="-1"
+                                value="">
+                                <button id="submit" class="default-btn"value="Subscribe" name="subscribe" type="submit">Send Message<span
+                                        style="top: -10px; left: 110.672px;"></span></button>
+                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                    <div class="clearfix"></div>
                                 <div id="form-messages" class="alert" role="alert"></div>
                             </form>
                         </div>
@@ -1185,12 +1190,15 @@
                 </div>
                 <div class="message-box-wrap">
                     <div class="message-form">
-                        <form action="#" class="wt-subscribe-form">
-                            <input class="form-control" type="email" name="email" placeholder="Enter Your Email Address"
+                        <form action="https://gmail.us17.list-manage.com/subscribe/post?u=d164a665617f5f1ef6e6af860&amp;id=6c7ee0b816&amp;f_id=004a5ae0f0"
+                        method="post" class="wt-subscribe-form">
+                            <input class="form-control" type="email" value="" name="EMAIL"  placeholder="Enter Your Email Address"
                                 required="" />
-                            <input type="hidden" name="action" value="mailchimpsubscribe" />
-                            <button class="submit">Subscribe<i class="fa fa-location-arrow"></i></button>
-                            <div class="clearfix"></div>
+                                <input hidden type="text" name="b_d164a665617f5f1ef6e6af860_6c7ee0b816" tabindex="-1"
+                                value="">
+                            <button value="Subscribe" name="subscribe" type="submit" class="submit">Subscribe<i class="fa fa-location-arrow"></i></button>
+                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                    <div class="clearfix"></div>
                         </form>
                     </div>
                 </div>
