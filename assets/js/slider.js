@@ -196,50 +196,38 @@ class TypeWriter {
     this.words = words;
     this.txt = '';
     this.wordIndex = 0;
-    this.wait = parseInt(wait, 8);
+    this.wait = parseInt(wait, 10);
     this.type();
     this.isDeleting = false;
   }
 
   type() {
-    // Current index of word
     const current = this.wordIndex % this.words.length;
-    // Get full text of current word
     const fullTxt = this.words[current];
 
-    // Check if deleting
-    if(this.isDeleting) {
-      // Remove char
+    if (this.isDeleting) {
       this.txt = fullTxt.substring(0, this.txt.length - 1);
     } else {
-      // Add char
       this.txt = fullTxt.substring(0, this.txt.length + 1);
     }
 
-    // Insert txt into element
-    this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
+    // Apply style only to the first letter
+    const coloredTxt = `<span class="txt" style="color: red;">${this.txt.charAt(0)}</span>${this.txt.slice(1)}`;
+    
+    this.txtElement.innerHTML = coloredTxt;
 
-    // change color for data-text
-    this.txtElement.innerHTML = `<span class="txt" style="color: #fff;">${this.txt}</span>`;
-
-    // Initial Type Speed
     let typeSpeed = 100;
 
-    if(this.isDeleting) {
+    if (this.isDeleting) {
       typeSpeed /= 2;
     }
 
-    // If word is complete
-    if(!this.isDeleting && this.txt === fullTxt) {
-      // Make pause at end
+    if (!this.isDeleting && this.txt === fullTxt) {
       typeSpeed = this.wait;
-      // Set delete to true
       this.isDeleting = true;
-    } else if(this.isDeleting && this.txt === '') {
+    } else if (this.isDeleting && this.txt === '') {
       this.isDeleting = false;
-      // Move to next word
       this.wordIndex++;
-      // Pause before start typing
       typeSpeed = 300;
     }
 
@@ -247,14 +235,12 @@ class TypeWriter {
   }
 }
 
-// Init On DOM Load
 document.addEventListener('DOMContentLoaded', init);
 
-// Init App
 function init() {
   const txtElement = document.querySelector('.txt-type');
   const words = JSON.parse(txtElement.getAttribute('data-words'));
   const wait = txtElement.getAttribute('data-wait');
-  // Init TypeWriter
   new TypeWriter(txtElement, words, wait);
 }
+
