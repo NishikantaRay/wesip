@@ -2752,7 +2752,7 @@ button {
 }
 
 .about-section-2.minus-pd {
-  padding: 120px 0;
+  /* padding: 120px 0; */
 }
 
 @media (max-width: 992px) {
@@ -2765,7 +2765,7 @@ button {
   }
 
   .about-section-2.minus-pd {
-    padding: 50px 0;
+    /* padding: 50px 0; */
   }
 
   .about-section-2 .about-content-box {
